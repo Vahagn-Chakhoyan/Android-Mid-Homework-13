@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Android Mid Homework 13</string>
-</resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="last_call">Last Call:</string>
+    <string name="delete">Delete</string>
+    <string name="select_an_action">Select an action</string>
+    <string name="create_new_contact">Create New Contact</string>
+    <string name="name">Name:</string>
+    <string name="number">Number:</string>
+    <string name="type">Type:</string>
+    <string name="group">Group:</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+    <string-array name="number_types">
+        <item>mobile</item>
+        <item>city</item>
+    </string-array>
+`</resources>

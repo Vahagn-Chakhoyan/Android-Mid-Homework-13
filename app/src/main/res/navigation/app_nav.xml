@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/contactsFragment">
+
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="com.vahagn.androidmidhomework13.ContactsFragment"
+        android:label="fragment_contacts"
+        tools:layout="@layout/fragment_contacts" >
+        <action
+            android:id="@+id/goToDetails"
+            app:destination="@id/contactDetailsFragment" />
+        <action
+            android:id="@+id/goToNewContact"
+            app:destination="@id/newContactFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactDetailsFragment"
+        android:name="com.vahagn.androidmidhomework13.ContactDetailsFragment"
+        android:label="fragment_contact_details"
+        tools:layout="@layout/fragment_contact_details" />
+    <fragment
+        android:id="@+id/newContactFragment"
+        android:name="com.vahagn.androidmidhomework13.NewContactFragment"
+        android:label="fragment_new_contact"
+        tools:layout="@layout/fragment_new_contact" />
+</navigation>
